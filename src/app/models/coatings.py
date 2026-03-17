@@ -11,6 +11,4 @@ class Coatings(Base):
     coating = Column(Text, nullable=False)
     elements = Column(Text, nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
-    # layers =
-    # sublayer = Column(Boolean)
 

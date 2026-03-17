@@ -1,4 +1,4 @@
-# src/app/models/__init__.py
+# src/db/models/__init__.py
 from .coatings import Coatings
 from .papers import Papers
 
